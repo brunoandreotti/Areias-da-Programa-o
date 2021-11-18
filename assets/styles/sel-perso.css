@@ -1,0 +1,71 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Estonia', cursive;
+  height: 100vh;
+  width: 100vw;
+  background-color: #eece4f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+#title{
+  font-size: 2.5rem;
+}
+
+#cards {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 25rem;
+  width: 18.75rem;
+  margin: 2rem;
+  padding: 1.5rem 0;
+  border: 2px solid #8f7b2d;
+  background-color: #a89132
+  
+}
+
+#card > img {
+  width: 12rem;
+}
+
+#button {
+  font-size: 3rem;
+  text-decoration: none;
+  background-color: #f0c000;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  color: black;
+  text-align: center;
+  transition: 0.3s;
+}
+
+#button:hover {
+  transform: translateY(-10px);
+}
+
+
