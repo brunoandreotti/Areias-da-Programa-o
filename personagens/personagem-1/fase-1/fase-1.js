@@ -10,7 +10,7 @@ button.addEventListener('click', selecionarPersonagem)
 
 function redirecionarParaFase(numEscolha) {
   if (numEscolha == 1) {
-    window.location.assign('./game-over.html')
+    window.location.replace('./game-over.html')
   } else if (numEscolha == 2) {
     window.location.assign('../fase-2/fase-2.html')
   }
