@@ -1,0 +1,98 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Estonia', cursive;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./images/deserto1.jpg);
+  
+}
+
+#container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#char{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 48%;
+}
+
+#char > div {
+  background-color: #eece4f;
+  height: 15rem;
+  width: 50rem;
+  margin-right: 10rem;
+  border-radius: 15px;
+}
+
+#char > div > h1{
+  font-size: 3rem;
+  margin-left: 1rem;
+}
+
+#char > div > p{
+  font-size: 2rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+#button{
+  
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s;
+}
+
+#button:hover{
+  color: red
+}
+
+#entity{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 48%;
+}
+
+#entity > div {
+  background-color: #eece4f;
+  height: 15rem;
+  width: 50rem;
+  margin-left: 10rem;
+  border-radius: 15px;
+}
+
+#entity > img {
+  width: 17rem;
+  height: 17rem;
+  border-radius: 50%;
+}
+
+#entity > div > h1{
+  font-size: 3rem;
+  margin-left: 1rem;
+}
+
+#entity > div > p{
+  font-size: 2rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+
+
