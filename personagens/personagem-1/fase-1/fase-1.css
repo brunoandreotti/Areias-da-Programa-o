@@ -26,6 +26,8 @@ body{
   flex-direction: column;
 }
 
+/* Personagem Principal */
+
 #char{
   display: flex;
   align-items: center;
@@ -64,6 +66,8 @@ body{
   color: red
 }
 
+/* Senhor da Programação */
+
 #entity{
   display: flex;
   align-items: center;
@@ -98,5 +102,35 @@ body{
   text-align: left;
 }
 
+/* Game Over */
+
+#game-over{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#game-over > h1 {
+  font-size: 7rem;
+}
+
+#game-over > p {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;  
+}
+
+#game-over > a {
+  font-size: 3rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+#game-over > a:hover{
+  color: red;
+}
 
 

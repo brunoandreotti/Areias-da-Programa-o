@@ -22,14 +22,14 @@ function selecionarPersonagem(event) {
   event.preventDefault()
   var escolha = parseInt(
     prompt(`Escolha seu personagem:
-  1 - Estudante HTML e CSS
+  1 - Moraj
   2 - Estudante Soft Skills
   3 - Estudante GIT e JavaScript
   Obs: Escolha baseado no número do personagem!`)
   )
 
   if (escolha == 1) {
-    alert('Você escolheu o Estudante de HTML e CSS')
+    alert('Você escolheu Moraj!')
     redirecionarParaFase(escolha)
   } else if (escolha == 2) {
     alert('Você escolheu o Estudante de Soft Skills')

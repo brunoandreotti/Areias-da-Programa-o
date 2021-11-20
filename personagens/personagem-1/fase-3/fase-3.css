@@ -37,7 +37,7 @@ body{
 
 #char > div {
   background-color: #eece4f;
-  height: 15rem;
+  height: 18rem;
   width: 50rem;
   margin-right: 10rem;
   border-radius: 15px;
@@ -118,6 +118,7 @@ body{
 /* Game Over */
 
 #game-over{
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -126,12 +127,14 @@ body{
 
 #game-over > h1 {
   font-size: 7rem;
+  color: white;
 }
 
 #game-over > p {
   font-size: 3rem;
   text-align: center;
-  font-weight: bold;  
+  font-weight: bold;
+  color: white;
 }
 
 #game-over > a {
@@ -140,9 +143,45 @@ body{
   color: black;
   font-weight: bold;
   transition: color 0.3s;
+  color: white
 }
 
 #game-over > a:hover{
+  color: red;
+}
+
+/* Win */
+
+#win{
+  background-image: url(./images/oasis.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#win > h1 {
+  font-size: 7rem;
+  color: white;
+}
+
+#win > p {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+#win > a {
+  font-size: 3rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s;
+  color: white
+}
+
+#win > a:hover{
   color: red;
 }
 
