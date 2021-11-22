@@ -1,0 +1,189 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Estonia', cursive;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./images/deserto1.jpg);
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  
+}
+
+#container{
+  max-width: 1300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Personagem Principal */
+
+#char{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 48%;
+}
+
+#char > div {
+  background-color: #eece4f;
+  height: 18rem;
+  width: 50rem;
+  margin-right: 10rem;
+  border-radius: 15px;
+}
+
+#char > div > h1{
+  font-size: 3rem;
+  margin-left: 1rem;
+}
+
+#char > div > p{
+  font-size: 2rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+#button{
+  
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s;
+}
+
+#button:hover{
+  color: red
+}
+
+#button2{
+  
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s;
+}
+
+#button2:hover{
+  color: red
+}
+
+
+/* Senhor da Programação */
+
+#entity{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 48%;
+}
+
+#entity > div {
+  background-color: #eece4f;
+  /* height: 15rem; */
+  width: 50rem;
+  margin-left: 10rem;
+  border-radius: 15px;
+}
+
+#entity > img {
+  width: 17rem;
+  height: 17rem;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
+#entity > div > h1{
+  font-size: 3rem;
+  margin-left: 1rem;
+}
+
+#entity > div > p{
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Game Over */
+
+#game-over{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#game-over > h1 {
+  font-size: 7rem;
+  color: white;
+}
+
+#game-over > p {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+#game-over > a {
+  font-size: 3rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s;
+  color: white
+}
+
+#game-over > a:hover{
+  color: red;
+}
+
+/* Win */
+
+#win{
+  background-image: url(./images/oasis.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#win > h1 {
+  font-size: 7rem;
+  color: white;
+}
+
+#win > p {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+#win > a {
+  font-size: 3rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s;
+  color: white
+}
+
+#win > a:hover{
+  color: red;
+}
+
+
+
