@@ -20,8 +20,8 @@ function selecionarPersonagem(event) {
   event.preventDefault()
   var escolha = parseInt(
     prompt(`Faça sua escolha:
-  1 - Muito fácil!. Git commit -m 'Mensagem-do-commit'
-  2 - Fácil de mais!. Git comment -m 'Mensagem-do-comment'
+  1 - Muito fácil!. Git commit -m 'mensagem-do-commit'
+  2 - Fácil de mais!. Git comment -m 'mensagem-do-comment'
   
   Obs: Selecione baseado no número da escolha!`)
   )
