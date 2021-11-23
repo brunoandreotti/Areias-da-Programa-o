@@ -10,9 +10,9 @@ button.addEventListener('click', selecionarPersonagem)
 
 function redirecionarParaFase(numEscolha) {
   if (numEscolha == 1) {
-    window.location.replace('./game-over.html')
+    window.location.assign('../html/fase-3.2.html')
   } else if (numEscolha == 2) {
-    window.location.assign('../fase-2/fase-2.html')
+    window.location.replace('../html/game-over.html')
   }
 }
 
@@ -20,21 +20,19 @@ function selecionarPersonagem(event) {
   event.preventDefault()
   var escolha = parseInt(
     prompt(`Faça sua escolha:
-  1 - Volta para a cidade para se reidratar e voltar à buscar outro dia.
-  2 - Continuar a busca no calor do deserto por mais algum tempo para tentar encontrar a torre.
+  1 - A palavra reservada 'for' é utilizada para criar laços de repetição.
+  2 - A palavra reservada 'for' é utilizada para criar condições.
   
   Obs: Selecione baseado no número da escolha!`)
   )
 
   if (escolha == 1) {
     alert(
-      'Ao voltar você começa a pensar que tudo não passa de um conto e desiste de procurar o Oásis.'
+      'Você acertou a resposta da pergunta do Golem do JavaScript!'
     )
     redirecionarParaFase(escolha)
   } else if (escolha == 2) {
-    alert(
-      'Você anda por mais alguns minutos e avista uma torre no horizonte, sem pensar duas vezes você entra na torre, ao entrar você se depara com O Gato Do Git.'
-    )
+    alert('Você errou a resposta e o Golem do JavaScript te condenou a nunca conseguir fazer laços de repetição!')
     redirecionarParaFase(escolha)
   } else {
     alert('Selecione uma alternativa válida!')

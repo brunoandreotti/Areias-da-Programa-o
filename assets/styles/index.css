@@ -12,8 +12,8 @@
 
 body {
   font-family: 'Estonia', cursive;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: #eece4f;
   display: flex;
   flex-direction: column;
@@ -24,8 +24,9 @@ body {
 
 .container{
   margin-top: 5rem;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;

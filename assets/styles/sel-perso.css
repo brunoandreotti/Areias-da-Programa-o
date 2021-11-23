@@ -20,6 +20,10 @@ body {
   text-align: center;
 }
 
+#content{
+  height: 100%;
+}
+
 #title{
   font-size: 2.5rem;
 }
