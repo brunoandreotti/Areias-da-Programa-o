@@ -11,7 +11,7 @@
 body {
   font-family: 'Estonia', cursive;
   height: 100vh;
-  width: 100vw;
+  width: 95vw;
   background-image: url(.././images/caverna.jpg);
   display: flex;
   justify-content: center;
@@ -37,8 +37,8 @@ body {
 
 #char > div {
   background-color: #eece4f;
-  height: 15rem;
-  width: 50rem;
+  
+  width: 100%;
   margin-right: 10rem;
   border-radius: 15px;
 }
@@ -87,7 +87,7 @@ body {
 #entity > div {
   background-color: #eece4f;
   /* height: 15rem; */
-  width: 50rem;
+  
   margin-left: 10rem;
   border-radius: 15px;
 }
@@ -142,4 +142,33 @@ body {
 
 #game-over > a:hover {
   color: red;
+}
+
+/* Media Queries */
+
+@media (max-width: 930px) {
+  #char {
+    flex-direction: column;
+  }
+
+  #char > div {
+    margin-right: 0;
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  #entity {
+    flex-direction: column;
+  }
+
+  #entity > div {
+    margin-left: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #entity > img {
+    order: -1;
+    margin-top: 6rem;
+  }
 }

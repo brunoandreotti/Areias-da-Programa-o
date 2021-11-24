@@ -2,13 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: 'Estonia', cursive;
   height: 100vh;
   width: 100vw;
@@ -16,11 +16,10 @@ body{
   display: flex;
   justify-content: center;
   background-size: cover;
-  
 }
 
-#container{
-  max-width: 1300px;
+#container {
+  max-width: 81.25rem;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -28,47 +27,46 @@ body{
 
 /* Personagem Principal */
 
-#char{
+#char {
   display: flex;
   align-items: center;
+
   justify-content: space-between;
   height: 48%;
 }
 
 #char > div {
   background-color: #eece4f;
-  height: 15rem;
-  width: 50rem;
+  
   margin-right: 10rem;
   border-radius: 15px;
 }
 
-#char > div > h1{
+#char > div > h1 {
   font-size: 3rem;
   margin-left: 1rem;
 }
 
-#char > div > p{
+#char > div > p {
   font-size: 2rem;
   margin-left: 1rem;
   font-weight: bold;
   text-align: left;
 }
 
-#button{
-  
+#button {
   text-decoration: none;
   color: black;
   transition: color 0.3s;
 }
 
-#button:hover{
-  color: red
+#button:hover {
+  color: red;
 }
 
 /* Senhor da Programação */
 
-#entity{
+#entity {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -89,12 +87,12 @@ body{
   border-radius: 50%;
 }
 
-#entity > div > h1{
+#entity > div > h1 {
   font-size: 3rem;
   margin-left: 1rem;
 }
 
-#entity > div > p{
+#entity > div > p {
   font-size: 2rem;
   margin-left: 1rem;
   margin-bottom: 1rem;
@@ -104,7 +102,7 @@ body{
 
 /* Game Over */
 
-#game-over{
+#game-over {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -118,7 +116,7 @@ body{
 #game-over > p {
   font-size: 3rem;
   text-align: center;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
 #game-over > a {
@@ -129,8 +127,19 @@ body{
   transition: color 0.3s;
 }
 
-#game-over > a:hover{
+#game-over > a:hover {
   color: red;
 }
 
+/* Media Queries */
 
+@media (max-width: 930px) {
+  #char {
+    flex-direction: column;
+  }
+
+  #char > div {
+    margin-right: 0;
+    margin-top: 1rem;
+  }
+}
