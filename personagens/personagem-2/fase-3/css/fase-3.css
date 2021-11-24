@@ -37,7 +37,7 @@ body{
 
 #char > div {
   background-color: #eece4f;
-  height: 19rem;
+  
   width: 50rem;
   margin-right: 10rem;
   border-radius: 15px;
@@ -198,6 +198,7 @@ body{
     margin-right: 0;
     margin-top: 1rem;
     width: 100%;
+    margin-bottom: 1rem;
   }
 
   #entity {
@@ -206,7 +207,7 @@ body{
 
   #entity > div {
     margin-left: 0;
-    margin-top: 1rem;
+    margin-top: 6rem;
     margin-bottom: 1rem;
   }
 
