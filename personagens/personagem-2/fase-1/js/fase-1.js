@@ -10,9 +10,9 @@ button.addEventListener('click', selecionarPersonagem)
 
 function redirecionarParaFase(numEscolha) {
   if (numEscolha == 1) {
-    window.location.assign('./fase-2.1.html')
+    window.location.replace('../html/game-over.html')
   } else if (numEscolha == 2) {
-    window.location.replace('./game-over.html')
+    window.location.assign('../../fase-2/html/fase-2.html')
   }
 }
 
@@ -20,20 +20,20 @@ function selecionarPersonagem(event) {
   event.preventDefault()
   var escolha = parseInt(
     prompt(`Faça sua escolha:
-  1 - A tag <head> serve para passar informações ao navegador que não serão apresentadas na tela para o usuário, enquanto a tag <header> representar o cabeçalho da página!.
-  2 - Não tem diferença! São jeitos diferentes de escrever a mesma tag.
+  1 - Voltar para o acampamento para se descansar e voltar à buscar outro dia.
+  2 - Entrar na caverna com a certeza que encontrou o que procurava.
   
   Obs: Selecione baseado no número da escolha!`)
   )
 
   if (escolha == 1) {
     alert(
-      'Você acertou a resposta do questionamento do Ferreiro do HTML!'
+      'Você volta para o acampamento mas quando tenta encontrar a caverna novamente, ela foi soterrada por uma tempestade de areia.'
     )
     redirecionarParaFase(escolha)
   } else if (escolha == 2) {
     alert(
-      'Você errou! E O Ferreiro do HTML te condenou a escrever HTML sem nenhuma semântica para o resto da vida!'
+      'Você entra na caverna escura, ao acender sua tocha você se depara com uma gigante borboleta e se da conta que se trata da Borboleta do Feedback!'
     )
     redirecionarParaFase(escolha)
   } else {

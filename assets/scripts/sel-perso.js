@@ -12,7 +12,7 @@ function redirecionarParaFase(numEscolha) {
   if (numEscolha == 1) {
     window.location.assign('./personagens/personagem-1/fase-1/fase-1.html')
   } else if (numEscolha == 2) {
-    window.location.assign('./personagens/personagem-2/fase-1.html')
+    window.location.assign('../../personagens/personagem-2/fase-1/html/fase-1.html')
   } else {
     window.location.assign('../../personagens/personagem-3/fase-1/html/fase-1.html')
   }
@@ -23,7 +23,7 @@ function selecionarPersonagem(event) {
   var escolha = parseInt(
     prompt(`Escolha seu personagem:
   1 - Moraj
-  2 - Estudante Soft Skills
+  2 - Ilse
   3 - Oileh
   Obs: Escolha baseado no número do personagem!`)
   )
@@ -32,7 +32,7 @@ function selecionarPersonagem(event) {
     alert('Você escolheu Moraj!')
     redirecionarParaFase(escolha)
   } else if (escolha == 2) {
-    alert('Você escolheu o Estudante de Soft Skills')
+    alert('Você escolheu Ilse!')
     redirecionarParaFase(escolha)
   } else if (escolha == 3) {
     alert('Você escolheu Oileh!')

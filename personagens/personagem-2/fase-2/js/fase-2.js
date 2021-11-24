@@ -20,20 +20,22 @@ function selecionarPersonagem(event) {
   event.preventDefault()
   var escolha = parseInt(
     prompt(`Faça sua escolha:
-  1 - A tag <head> serve para passar informações ao navegador que não serão apresentadas na tela para o usuário, enquanto a tag <header> representar o cabeçalho da página!.
-  2 - Não tem diferença! São jeitos diferentes de escrever a mesma tag.
+  1 - Eu agradecia o feedback e perguntaria quais pontos a pessoa acha que eu poderia melhorar!
+  2 - Eu ficaria brava e falaria que o meu trabalho está perfeito e que não preciso de opinião de ninguém!
   
   Obs: Selecione baseado no número da escolha!`)
   )
 
   if (escolha == 1) {
     alert(
-      'Você acertou a resposta do questionamento do Ferreiro do HTML!'
+      
+      'Você respondeu corretamente a pergunta da Borboleta do Feedback!'
     )
     redirecionarParaFase(escolha)
   } else if (escolha == 2) {
     alert(
-      'Você errou! E O Ferreiro do HTML te condenou a escrever HTML sem nenhuma semântica para o resto da vida!'
+      
+      'Você errou a resposta e a Borboleta do Feedback te condenou à nunca conseguir melhorar seus trabalhos por não aceitar feedbacks!'
     )
     redirecionarParaFase(escolha)
   } else {

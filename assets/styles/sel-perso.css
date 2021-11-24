@@ -11,7 +11,7 @@
 body {
   font-family: 'Estonia', cursive;
   height: 100vh;
-  width: 100vw;
+  width: 98.5vw;
   background-color: #eece4f;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,7 @@ body {
 
 #content{
   height: 100%;
+  max-width: 85rem;
 }
 
 #title{
@@ -44,7 +45,7 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height: 25rem;
+  height: 26.5rem;
   width: 18.75rem;
   margin: 2rem;
   padding: 1.5rem 0;
